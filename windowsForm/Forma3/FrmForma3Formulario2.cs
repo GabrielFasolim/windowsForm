@@ -14,7 +14,10 @@ namespace windowsForm.Forma3
     {
         public string Parametro
         { 
-            set { txtParametroRecebido.Text = value; } 
+            set
+            { 
+                txtParametroRecebido.Text = value;
+            } 
         }
 
         public string Resposta
@@ -22,7 +25,9 @@ namespace windowsForm.Forma3
             get 
             {
                return txtRespostaDevolver.Text;
+               
             }
+
         }
 
 
@@ -33,7 +38,7 @@ namespace windowsForm.Forma3
 
         private void btnDevolver_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
     }
 }

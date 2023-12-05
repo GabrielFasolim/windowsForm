@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using windowsForm.Forma1;
 using windowsForm.Forma2;
+using windowsForm.Forma3;
 
 namespace windowsForm
 {
@@ -26,8 +27,8 @@ namespace windowsForm
 
         private void forma3ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
-
+            FrmForma3Formulario1 frm = new FrmForma3Formulario1();
+            frm.Show();
         }
 
         private void forma1ToolStripMenuItem_Click(object sender, EventArgs e)
